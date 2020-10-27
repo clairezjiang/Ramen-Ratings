@@ -1,3 +1,6 @@
+## Claire Jiang 0ct 2020
+
+#R File for Word Cloud
 
 knitr::opts_chunk$set(echo = TRUE)
 library(ggplot2)
