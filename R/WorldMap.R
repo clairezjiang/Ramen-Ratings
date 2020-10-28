@@ -1,3 +1,16 @@
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(tidyverse)
+library(forcats)
+library(conflicted)
+library(dplyr)
+library(tm)
+library(googleVis)
+library(wesanderson)
+library(RColorBrewer)
+ramen <- read_csv("C:\\Users\\DRAGON~1\\AppData\\Local\\Temp\\archive.zip")
+
+
 #Where does most of the ramen in the world come from i.e. where is it produced?
 #sort = TRUE allows df to be ordered from high to low
 ramencountry <- ramen %>% count(Country, sort = TRUE)
