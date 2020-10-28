@@ -1,3 +1,16 @@
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(tidyverse)
+library(forcats)
+library(conflicted)
+library(dplyr)
+library(tm)
+library(googleVis)
+library(wesanderson)
+library(RColorBrewer)
+ramen <- read_csv("C:\\Users\\DRAGON~1\\AppData\\Local\\Temp\\archive.zip")
+
+
 #violin plot 
 #Ratings given the type of style the ramen comes in
 
